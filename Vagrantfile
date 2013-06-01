@@ -6,7 +6,7 @@ Vagrant::Config.run do |config|
 
   # The OS that will run our code
   config.vm.box = "precise32"
-  config.vm.box_url = "~/Downloads/precise32.box"
+  config.vm.box_url = "http://files.vagrantup.com/precise32.box"
 
   # Customizing memory. The VM will need at least 512MB
   config.vm.customize ["modifyvm", :id, "--memory", 512]
