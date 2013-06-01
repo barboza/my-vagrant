@@ -4,9 +4,9 @@ Existem alguns passos necessários para instalar o [Vagrant](http://www.vagrantu
 
 ##A - Pré requisitos
 
-**Certifiqie-se de que seu ambiente possua todas asferramentas abaixo instaladas antes de seguir para o próximo passo.**
+**Certifique-se de que seu ambiente possua todas as ferramentas abaixo instaladas antes de seguir para o próximo passo.**
 
-Se você usa Windows, [aqui](http://zamboni.readthedocs.org/en/latest/topics/install-zamboni/vagrant-on-windows.html) está um tutorial detalhado de como instalar o Vagrant no ambiente Windows. Pare de segui-lo após isntalar o Vagrant, **não instale o zamboni**, reinicie o computador e siga os próximos passos.
+Se você usa Windows, [aqui](http://zamboni.readthedocs.org/en/latest/topics/install-zamboni/vagrant-on-windows.html) está um tutorial detalhado de como instalar o Vagrant no ambiente Windows. Pare de segui-lo após instalar o Vagrant, **não instale o zamboni**, reinicie o computador e siga os próximos passos.
 
 ###Requisitos:
 
@@ -15,11 +15,11 @@ Se você usa Windows, [aqui](http://zamboni.readthedocs.org/en/latest/topics/ins
 * [**Librarian-Chef**](http://docs.vagrantup.com/v2/installation/index.html), um bundler para a infra-estrutura baseado no Chef ;
 * [**VirtualBox**](https://www.virtualbox.org/wiki/Downloads), uma ferramenta para criar e gerenciar máquinas virtuais ;
 * [**Ruby**](http://www.ruby-lang.org/en/) incluindo o [**RubyGems**](http://rubygems.org/pages/download) ;
-* [**git**](http://git-scm.com/), um sistema distribuido de controle de versão. Para windows, use [**mysysgit**](http://code.google.com/p/msysgit/downloads/list) que possibilita o uso do git no terminal (necessário para o Vagrant) ;
+* [**git**](http://git-scm.com/), um sistema distribuído de controle de versão. Para windows, use [**mysysgit**](http://code.google.com/p/msysgit/downloads/list) que possibilita o uso do git no terminal (necessário para o Vagrant) ;
 
 e, para usuários de Windows apenas:
 
-* [**putty**](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe), para permitir conexãoatravés do console por SSH.
+* [**putty**](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe), para permitir conexão através do console por SSH.
 
 
 ##B - Instalação
@@ -33,7 +33,7 @@ e, para usuários de Windows apenas:
 Crie um diretório que irá conter seus projetos, e dentro dele:
 
 * digite `git clone git@github.com:barboza/my-vagrant.git`
-* entre no novo dretório com o comando `cd my-vagrnt`
+* entre no novo diretório com o comando `cd my-vagrant`
 
 ###2 - Adicionando algumas ferramentas à sua VM
 
