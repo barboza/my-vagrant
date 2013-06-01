@@ -6,27 +6,27 @@ Existem alguns passos necessários para instalar o [Vagrant](http://www.vagrantu
 
 **Certifiqie-se de que seu ambiente possua todas asferramentas abaixo instaladas antes de seguir para o próximo passo.**
 
-Se você usa Windows, [aqui](http://zamboni.readthedocs.org/en/latest/topics/install-zamboni/vagrant-on-windows.html) está um tutorial detalhado de como instalar o Vagrant no ambiente Windows. Pare de segui-lo após isntalar o Vagrant **não instale o zamboni**, reinicie o computador e siga os próximos passos.
+Se você usa Windows, [aqui](http://zamboni.readthedocs.org/en/latest/topics/install-zamboni/vagrant-on-windows.html) está um tutorial detalhado de como instalar o Vagrant no ambiente Windows. Pare de segui-lo após isntalar o Vagrant, **não instale o zamboni**, reinicie o computador e siga os próximos passos.
 
 ###Requisitos:
 
 * [**Vagrant**](http://docs.vagrantup.com/v2/installation/index.html), para construir o ambiente de desenvolvimento ;
 * [**Vagrant-vbguest**'](https://github.com/dotless-de/vagrant-vbguest/blob/master/Readme.md), um plugin para o Vagrant que adicionará alguns Hosts ;
-* [**Librarian-Chef**](http://docs.vagrantup.com/v2/installation/index.html), um bundler para a infra-estrutura baseado no chef ;
+* [**Librarian-Chef**](http://docs.vagrantup.com/v2/installation/index.html), um bundler para a infra-estrutura baseado no Chef ;
 * [**VirtualBox**](https://www.virtualbox.org/wiki/Downloads), uma ferramenta para criar e gerenciar máquinas virtuais ;
-* [**Ruby**](http://www.ruby-lang.org/en/) including [**RubyGems**](http://rubygems.org/pages/download) ;
+* [**Ruby**](http://www.ruby-lang.org/en/) incluindo o [**RubyGems**](http://rubygems.org/pages/download) ;
 * [**git**](http://git-scm.com/), um sistema distribuido de controle de versão. Para windows, use [**mysysgit**](http://code.google.com/p/msysgit/downloads/list) que possibilita o uso do git no terminal (necessário para o Vagrant) ;
 
 e, para usuários de Windows apenas:
 
-* [**putty**], para permitir conexãoatravés do console por SSH.
+* [**putty**](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe), para permitir conexãoatravés do console por SSH.
 
 
 ##B - Instalação
 
 **Abra o terminal (ou console de comandos) e digite os seguintes `comandos`:**
 
-> NO windows, para abrir o console, abra o menu "Iniciar", clique em "Executar" e então digite "cmd". No Windows 8, para abrir o "Executar", abra o menu "Iniciar" e digite  "R"
+> No windows, para abrir o console, abra o menu "Iniciar", clique em "Executar" e então digite "cmd". No Windows 8, para abrir o "Executar", abra o menu "Iniciar" e digite  "R"
 
 ###1 - Baixando os arquivos de configuração do Vagrant
 
